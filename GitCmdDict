@@ -199,7 +199,7 @@ git branch -d <branchname>
 #禁用fast forward合并
 git merge --no-ff -m 'commit description' <branchname>
 
-#存储当前分支
+#存储当前分支（将当前工作区存到一个地方，并且将暂存区文件同步到工作区）
 git stash
 
 #从存储的分支恢复
