@@ -218,7 +218,8 @@ git stash list
 #重复commit
 git cherry-pick <commit_id>
 
-
+#将某个文件从暂存区移动到工作区
+git checkout -- <filename>
 
 
 
