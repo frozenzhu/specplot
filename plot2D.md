@@ -9,8 +9,8 @@
 |fig_dpi|int|图片dpi|
 |fig_size|tuple|画布大小，默认(10,8)|
 |colormap|str|默认jet| 
-|color_level|list|颜色色阶密度|
-|contour_line_level|list|轮廓线密度|
+|color_level|numpy array|颜色色阶密度|
+|contour_line_level|numpy array|轮廓线密度|
 |line_color|str|轮廓线颜色，默认黑色|
 |line_style|str|轮廓线风格，默认实线|
 |xtick_direction|str|x轴刻线方向，默认向内|
